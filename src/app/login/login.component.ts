@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit {
   LoginUser(){
     if(this.username  && this.password == "admin123")
     {
-      console.log("hello");
+      console.log("{{this.username}}");
     }
 
   }
